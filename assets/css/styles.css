@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+  font-family: times;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background: black;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #BDB;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+#works {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+  background-image: url("https://img.wallpapersafari.com/tablet/2560/1700/42/37/V6mrsI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#works h4 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#works img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#works button{
+  background: transparent;
+  border-radius:10%;
+}
+#works .form-control,
+.features input {
+    border-radius: 0;
+}
+#works .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+.page-footer .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+body {
+  text-align: center;
+}
+#intro {
+  background-image: url("https://www.thelondonobesityclinic.com/wp-content/uploads/2018/07/contactus-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+#intro h1 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: times;
+}
+#intro h3 {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    opacity: .6;
+    font-family: times;
+}
+#intro img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  margin-bottom: 20px;
+}
+#works h3 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+
+}
